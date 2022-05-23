@@ -18,7 +18,7 @@ def testInsertCustomer(map):
 
 def testUpdateCustomer(map):
     customerDao = CustomerDao()
-    customerDao.editCustomer(map['idToken'], {'name' : 'michele'})
+    customerDao.editCustomer(map['idToken'], {'name' : 'rodolfo'})
 
 
 
